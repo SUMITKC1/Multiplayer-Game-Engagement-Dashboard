@@ -97,12 +97,7 @@ ARPPU = DIVIDE(SUM(InGamePurchases), CALCULATE(DISTINCTCOUNT(PlayerID), Engageme
 RetentionRate = DIVIDE(CALCULATE(COUNT(PlayerID), EngagementLevel = "High"), COUNT(PlayerID))
 `
 
-## Screenshots
-Place exported visuals in dashboards/screenshots/ and link them here:
-- ![Overview](dashboards/screenshots/overview.png)
-- ![Engagement](dashboards/screenshots/engagement.png)
-- ![Monetization](dashboards/screenshots/monetization.png)
-- ![Retention](dashboards/screenshots/retention.png)
+
 
 ## Example Insight
 "High engagement users had 25% longer sessions and 3x purchases."
